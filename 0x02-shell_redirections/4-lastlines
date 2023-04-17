@@ -1,3 +1,2 @@
 #!/bin/bash
-# to display last line we use tail
 tail /etc/passwd
