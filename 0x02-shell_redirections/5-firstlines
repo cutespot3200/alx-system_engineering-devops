@@ -1,0 +1,3 @@
+#!/bin/bash
+# HEAD is used to display first 10 lines
+head /etc/passwd
