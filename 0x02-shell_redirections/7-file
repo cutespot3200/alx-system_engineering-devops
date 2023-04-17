@@ -1,3 +1,2 @@
 #!/bin/bash
-# i am going to use \ and " to escape special character
 echo "Best School" > \\\*\\\\"'\"Best School\"\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
