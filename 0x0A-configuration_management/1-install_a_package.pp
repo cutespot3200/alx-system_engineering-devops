@@ -1,7 +1,6 @@
-# installs puppet-lint package
-
-package {'flask':
-  ensure   => '2.1.0',
-  name     => 'flask',
-  provider => 'pip3'
-}
+# kills a process
+exec { 'killmenow':
+  command  => '/usr/bin/pkill killmenow',
+  provider => 'shell',
+  returns  => [0, 1],
+}}
