@@ -1,4 +1,4 @@
-# Installs a Nginx servers
+# Installs a Nginx server
 
 exec {'install':
   provider => shell,
